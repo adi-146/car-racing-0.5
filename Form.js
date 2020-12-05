@@ -24,10 +24,12 @@ this.button.hide();
      this.button.hide();
 
       player.name = this.input.value();
-      
+      console.log(player.name);
       playerCount+=1;
+      console.log(playerCount);
       player.index=playerCount;
-      player.update()
+      console.log(player.index);
+      player.update();
       player.updateCount(playerCount);
      
       this.greeting.html("Hello " + player.name )

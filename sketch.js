@@ -18,4 +18,12 @@ function setup(){
 
 
 function draw(){
+  if (playerCount === 2){
+    game.update(1)
+  }
+  if (gameState === 1){
+    clear();
+    game.play();
+
+  }
 }
